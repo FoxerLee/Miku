@@ -82,6 +82,12 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate, AVSpeechSynt
             saveObject.setObject(speechWords, forKey: "message")
             saveObject.setObject("false", forKey: "flag")
             saveObject.setObject(0, forKey: "flag2")
+            if (speechWords == "打开电视") {
+                saveObject.setObject(1, forKey: "flag3")
+            }
+            else {
+                saveObject.setObject(0, forKey: "flag3")
+            }
             saveObject.saveInBackground()
             
             self.voiceImage.image = UIImage()

@@ -18,8 +18,6 @@ BMPlayer, version 0.8.7
 
 SnapKit, version 3.2.0
 
-SwipeBack, version 1.1.1
-
 
 
 ## 基于全息成像和语音识别的智能儿童关怀服务
@@ -41,8 +39,6 @@ Alamofire, 版本 4.4
 BMPlayer, 版本 0.8.7
 
 SnapKit, 版本 3.2.0
-
-SwipeBack, 版本 1.1.1
 
 
 
