@@ -1,0 +1,6 @@
+framework module Pods_Miku {
+  umbrella header "Pods-Miku-umbrella.h"
+
+  export *
+  module * { export * }
+}

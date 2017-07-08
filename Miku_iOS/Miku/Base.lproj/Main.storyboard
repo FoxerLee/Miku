@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Miku" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BigD.va" translatesAutoresizingMaskIntoConstraints="NO" id="1KA-aT-rpg">
+                                <rect key="frame" x="105" y="251" width="165" height="165"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1KA-aT-rpg" secondAttribute="height" multiplier="1:1" id="rhZ-Qy-Td6"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTL-Wu-TSR">
+                                <rect key="frame" x="166" y="503" width="43" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="talk"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p3X-FN-bVo"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="voice" translatesAutoresizingMaskIntoConstraints="NO" id="Ry7-V8-7Oo">
+                                <rect key="frame" x="169" y="460" width="38" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Miku" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knn-Bz-sXc">
+                                <rect key="frame" x="127" y="175" width="120" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="31"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="D.va" translatesAutoresizingMaskIntoConstraints="NO" id="e99-Rg-lqC">
+                                <rect key="frame" x="161" y="121" width="52" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="e99-Rg-lqC" secondAttribute="height" multiplier="1:1" id="XAX-6i-mMM"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.52614200119999999" green="0.74606055019999995" blue="0.73484605550000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="e99-Rg-lqC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="145" id="2ky-3u-gOl"/>
+                            <constraint firstItem="1KA-aT-rpg" firstAttribute="top" secondItem="e99-Rg-lqC" secondAttribute="bottom" constant="78" id="A7m-Jp-Ec5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="e99-Rg-lqC" secondAttribute="trailing" constant="146" id="BST-hk-EYb"/>
+                            <constraint firstItem="1KA-aT-rpg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="89" id="PSa-dy-01R"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1KA-aT-rpg" secondAttribute="bottom" constant="251" id="Sel-da-c4T"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1KA-aT-rpg" secondAttribute="trailing" constant="89" id="WqU-ni-3p2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Bigicon" destination="1KA-aT-rpg" id="Nn3-ai-nFa"/>
+                        <outlet property="RecordButton" destination="BTL-Wu-TSR" id="b4C-5C-6ti"/>
+                        <outlet property="icon" destination="e99-Rg-lqC" id="lRk-yI-2OX"/>
+                        <outlet property="voiceImage" destination="Ry7-V8-7Oo" id="WE6-CB-LzZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BigD.va" width="352" height="353"/>
+        <image name="D.va" width="377" height="375"/>
+        <image name="talk" width="100" height="100"/>
+        <image name="voice" width="76" height="39"/>
+    </resources>
+</document>

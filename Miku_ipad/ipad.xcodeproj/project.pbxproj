@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ABF5B151F10BB5900AD138A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF5B141F10BB5900AD138A /* AppDelegate.swift */; };
+		7ABF5B171F10BB5900AD138A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF5B161F10BB5900AD138A /* ViewController.swift */; };
+		7ABF5B1A1F10BB5900AD138A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF5B181F10BB5900AD138A /* Main.storyboard */; };
+		7ABF5B1C1F10BB5900AD138A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF5B1B1F10BB5900AD138A /* Assets.xcassets */; };
+		7ABF5B1F1F10BB5900AD138A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF5B1D1F10BB5900AD138A /* LaunchScreen.storyboard */; };
+		7ABF5B2A1F10BB5900AD138A /* ipadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF5B291F10BB5900AD138A /* ipadTests.swift */; };
+		7ABF5B351F10BB5900AD138A /* ipadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF5B341F10BB5900AD138A /* ipadUITests.swift */; };
+		7ABF5B471F10E4B200AD138A /* BMCustomPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF5B461F10E4B200AD138A /* BMCustomPlayer.swift */; };
+		7ABF5B491F10E53700AD138A /* BMPlayerCustomControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF5B481F10E53700AD138A /* BMPlayerCustomControlView.swift */; };
+		7ABF5B511F1139AA00AD138A /* 开关灯.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF5B501F1139AA00AD138A /* 开关灯.mp4 */; };
+		7ABF5B531F113C5F00AD138A /* 蹦蹦跳跳.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF5B521F113C5F00AD138A /* 蹦蹦跳跳.mp4 */; };
+		7ABF5B551F11412F00AD138A /* 说话.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF5B541F11412F00AD138A /* 说话.mp4 */; };
+		7ABF5B571F114F6100AD138A /* 挥手.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF5B561F114F6100AD138A /* 挥手.mp4 */; };
+		7ABF5B591F114F6900AD138A /* 走路.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF5B581F114F6900AD138A /* 走路.mp4 */; };
+		FA88079FD8BD27C9BA9DBD0E /* Pods_ipad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57CFA2A6AA1B65300F36449 /* Pods_ipad.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ABF5B261F10BB5900AD138A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ABF5B091F10BB5900AD138A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ABF5B101F10BB5900AD138A;
+			remoteInfo = ipad;
+		};
+		7ABF5B311F10BB5900AD138A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ABF5B091F10BB5900AD138A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ABF5B101F10BB5900AD138A;
+			remoteInfo = ipad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46A591C08ABFC3D9B1F763C5 /* Pods-ipad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ipad/Pods-ipad.debug.xcconfig"; sourceTree = "<group>"; };
+		7ABF5B111F10BB5900AD138A /* ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABF5B141F10BB5900AD138A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7ABF5B161F10BB5900AD138A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7ABF5B191F10BB5900AD138A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ABF5B1B1F10BB5900AD138A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ABF5B1E1F10BB5900AD138A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ABF5B201F10BB5900AD138A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABF5B251F10BB5900AD138A /* ipadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ipadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABF5B291F10BB5900AD138A /* ipadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ipadTests.swift; sourceTree = "<group>"; };
+		7ABF5B2B1F10BB5900AD138A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABF5B301F10BB5900AD138A /* ipadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ipadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABF5B341F10BB5900AD138A /* ipadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ipadUITests.swift; sourceTree = "<group>"; };
+		7ABF5B361F10BB5900AD138A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABF5B461F10E4B200AD138A /* BMCustomPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMCustomPlayer.swift; sourceTree = "<group>"; };
+		7ABF5B481F10E53700AD138A /* BMPlayerCustomControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMPlayerCustomControlView.swift; sourceTree = "<group>"; };
+		7ABF5B501F1139AA00AD138A /* 开关灯.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "开关灯.mp4"; sourceTree = "<group>"; };
+		7ABF5B521F113C5F00AD138A /* 蹦蹦跳跳.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "蹦蹦跳跳.mp4"; sourceTree = "<group>"; };
+		7ABF5B541F11412F00AD138A /* 说话.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "说话.mp4"; sourceTree = "<group>"; };
+		7ABF5B561F114F6100AD138A /* 挥手.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "挥手.mp4"; sourceTree = "<group>"; };
+		7ABF5B581F114F6900AD138A /* 走路.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "走路.mp4"; sourceTree = "<group>"; };
+		7D9AD4FD284E5424CDADB702 /* Pods-ipad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipad.release.xcconfig"; path = "Pods/Target Support Files/Pods-ipad/Pods-ipad.release.xcconfig"; sourceTree = "<group>"; };
+		B57CFA2A6AA1B65300F36449 /* Pods_ipad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ipad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ABF5B0E1F10BB5900AD138A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA88079FD8BD27C9BA9DBD0E /* Pods_ipad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABF5B221F10BB5900AD138A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABF5B2D1F10BB5900AD138A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14AC807AAA4B03B59C766063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B57CFA2A6AA1B65300F36449 /* Pods_ipad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CC271F1E45DB73C34656E46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46A591C08ABFC3D9B1F763C5 /* Pods-ipad.debug.xcconfig */,
+				7D9AD4FD284E5424CDADB702 /* Pods-ipad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7ABF5B081F10BB5900AD138A = {
+			isa = PBXGroup;
+			children = (
+				7ABF5B131F10BB5900AD138A /* ipad */,
+				7ABF5B281F10BB5900AD138A /* ipadTests */,
+				7ABF5B331F10BB5900AD138A /* ipadUITests */,
+				7ABF5B121F10BB5900AD138A /* Products */,
+				6CC271F1E45DB73C34656E46 /* Pods */,
+				14AC807AAA4B03B59C766063 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7ABF5B121F10BB5900AD138A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF5B111F10BB5900AD138A /* ipad.app */,
+				7ABF5B251F10BB5900AD138A /* ipadTests.xctest */,
+				7ABF5B301F10BB5900AD138A /* ipadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ABF5B131F10BB5900AD138A /* ipad */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF5B501F1139AA00AD138A /* 开关灯.mp4 */,
+				7ABF5B521F113C5F00AD138A /* 蹦蹦跳跳.mp4 */,
+				7ABF5B541F11412F00AD138A /* 说话.mp4 */,
+				7ABF5B561F114F6100AD138A /* 挥手.mp4 */,
+				7ABF5B581F114F6900AD138A /* 走路.mp4 */,
+				7ABF5B141F10BB5900AD138A /* AppDelegate.swift */,
+				7ABF5B161F10BB5900AD138A /* ViewController.swift */,
+				7ABF5B481F10E53700AD138A /* BMPlayerCustomControlView.swift */,
+				7ABF5B461F10E4B200AD138A /* BMCustomPlayer.swift */,
+				7ABF5B181F10BB5900AD138A /* Main.storyboard */,
+				7ABF5B1B1F10BB5900AD138A /* Assets.xcassets */,
+				7ABF5B1D1F10BB5900AD138A /* LaunchScreen.storyboard */,
+				7ABF5B201F10BB5900AD138A /* Info.plist */,
+			);
+			path = ipad;
+			sourceTree = "<group>";
+		};
+		7ABF5B281F10BB5900AD138A /* ipadTests */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF5B291F10BB5900AD138A /* ipadTests.swift */,
+				7ABF5B2B1F10BB5900AD138A /* Info.plist */,
+			);
+			path = ipadTests;
+			sourceTree = "<group>";
+		};
+		7ABF5B331F10BB5900AD138A /* ipadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF5B341F10BB5900AD138A /* ipadUITests.swift */,
+				7ABF5B361F10BB5900AD138A /* Info.plist */,
+			);
+			path = ipadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ABF5B101F10BB5900AD138A /* ipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABF5B391F10BB5900AD138A /* Build configuration list for PBXNativeTarget "ipad" */;
+			buildPhases = (
+				3A3B218D5933CB809CEEEDD7 /* [CP] Check Pods Manifest.lock */,
+				7ABF5B0D1F10BB5900AD138A /* Sources */,
+				7ABF5B0E1F10BB5900AD138A /* Frameworks */,
+				7ABF5B0F1F10BB5900AD138A /* Resources */,
+				163878E493E1BF2ACE7ECF0F /* [CP] Embed Pods Frameworks */,
+				0E9E2D5B94B35E3888872D34 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ipad;
+			productName = ipad;
+			productReference = 7ABF5B111F10BB5900AD138A /* ipad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ABF5B241F10BB5900AD138A /* ipadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABF5B3C1F10BB5900AD138A /* Build configuration list for PBXNativeTarget "ipadTests" */;
+			buildPhases = (
+				7ABF5B211F10BB5900AD138A /* Sources */,
+				7ABF5B221F10BB5900AD138A /* Frameworks */,
+				7ABF5B231F10BB5900AD138A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ABF5B271F10BB5900AD138A /* PBXTargetDependency */,
+			);
+			name = ipadTests;
+			productName = ipadTests;
+			productReference = 7ABF5B251F10BB5900AD138A /* ipadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7ABF5B2F1F10BB5900AD138A /* ipadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABF5B3F1F10BB5900AD138A /* Build configuration list for PBXNativeTarget "ipadUITests" */;
+			buildPhases = (
+				7ABF5B2C1F10BB5900AD138A /* Sources */,
+				7ABF5B2D1F10BB5900AD138A /* Frameworks */,
+				7ABF5B2E1F10BB5900AD138A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ABF5B321F10BB5900AD138A /* PBXTargetDependency */,
+			);
+			name = ipadUITests;
+			productName = ipadUITests;
+			productReference = 7ABF5B301F10BB5900AD138A /* ipadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ABF5B091F10BB5900AD138A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "李源";
+				TargetAttributes = {
+					7ABF5B101F10BB5900AD138A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J862SDJ6XM;
+						ProvisioningStyle = Automatic;
+					};
+					7ABF5B241F10BB5900AD138A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7ABF5B101F10BB5900AD138A;
+					};
+					7ABF5B2F1F10BB5900AD138A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7ABF5B101F10BB5900AD138A;
+					};
+				};
+			};
+			buildConfigurationList = 7ABF5B0C1F10BB5900AD138A /* Build configuration list for PBXProject "ipad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ABF5B081F10BB5900AD138A;
+			productRefGroup = 7ABF5B121F10BB5900AD138A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ABF5B101F10BB5900AD138A /* ipad */,
+				7ABF5B241F10BB5900AD138A /* ipadTests */,
+				7ABF5B2F1F10BB5900AD138A /* ipadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ABF5B0F1F10BB5900AD138A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABF5B1F1F10BB5900AD138A /* LaunchScreen.storyboard in Resources */,
+				7ABF5B1C1F10BB5900AD138A /* Assets.xcassets in Resources */,
+				7ABF5B551F11412F00AD138A /* 说话.mp4 in Resources */,
+				7ABF5B571F114F6100AD138A /* 挥手.mp4 in Resources */,
+				7ABF5B591F114F6900AD138A /* 走路.mp4 in Resources */,
+				7ABF5B531F113C5F00AD138A /* 蹦蹦跳跳.mp4 in Resources */,
+				7ABF5B1A1F10BB5900AD138A /* Main.storyboard in Resources */,
+				7ABF5B511F1139AA00AD138A /* 开关灯.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABF5B231F10BB5900AD138A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABF5B2E1F10BB5900AD138A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E9E2D5B94B35E3888872D34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ipad/Pods-ipad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		163878E493E1BF2ACE7ECF0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ipad/Pods-ipad-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AVOSCloud/AVOSCloud.framework",
+				"${BUILT_PRODUCTS_DIR}/AVOSCloudCrashReporting/AVOSCloudCrashReporting.framework",
+				"${BUILT_PRODUCTS_DIR}/AVOSCloudIM/AVOSCloudIM.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BMPlayer/BMPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-8/iOS/RevealServer.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeBack/SwipeBack.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVOSCloud.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVOSCloudCrashReporting.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVOSCloudIM.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeBack.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ipad/Pods-ipad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A3B218D5933CB809CEEEDD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ipad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ABF5B0D1F10BB5900AD138A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABF5B171F10BB5900AD138A /* ViewController.swift in Sources */,
+				7ABF5B491F10E53700AD138A /* BMPlayerCustomControlView.swift in Sources */,
+				7ABF5B471F10E4B200AD138A /* BMCustomPlayer.swift in Sources */,
+				7ABF5B151F10BB5900AD138A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABF5B211F10BB5900AD138A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABF5B2A1F10BB5900AD138A /* ipadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABF5B2C1F10BB5900AD138A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABF5B351F10BB5900AD138A /* ipadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ABF5B271F10BB5900AD138A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ABF5B101F10BB5900AD138A /* ipad */;
+			targetProxy = 7ABF5B261F10BB5900AD138A /* PBXContainerItemProxy */;
+		};
+		7ABF5B321F10BB5900AD138A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ABF5B101F10BB5900AD138A /* ipad */;
+			targetProxy = 7ABF5B311F10BB5900AD138A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ABF5B181F10BB5900AD138A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABF5B191F10BB5900AD138A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ABF5B1D1F10BB5900AD138A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABF5B1E1F10BB5900AD138A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ABF5B371F10BB5900AD138A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ABF5B381F10BB5900AD138A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ABF5B3A1F10BB5900AD138A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A591C08ABFC3D9B1F763C5 /* Pods-ipad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J862SDJ6XM;
+				INFOPLIST_FILE = ipad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = foxerlee.ipad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7ABF5B3B1F10BB5900AD138A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D9AD4FD284E5424CDADB702 /* Pods-ipad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J862SDJ6XM;
+				INFOPLIST_FILE = ipad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = foxerlee.ipad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7ABF5B3D1F10BB5900AD138A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ipadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = foxerlee.ipadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ipad.app/ipad";
+			};
+			name = Debug;
+		};
+		7ABF5B3E1F10BB5900AD138A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ipadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = foxerlee.ipadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ipad.app/ipad";
+			};
+			name = Release;
+		};
+		7ABF5B401F10BB5900AD138A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ipadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = foxerlee.ipadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ipad;
+			};
+			name = Debug;
+		};
+		7ABF5B411F10BB5900AD138A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ipadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = foxerlee.ipadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ipad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ABF5B0C1F10BB5900AD138A /* Build configuration list for PBXProject "ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABF5B371F10BB5900AD138A /* Debug */,
+				7ABF5B381F10BB5900AD138A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ABF5B391F10BB5900AD138A /* Build configuration list for PBXNativeTarget "ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABF5B3A1F10BB5900AD138A /* Debug */,
+				7ABF5B3B1F10BB5900AD138A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ABF5B3C1F10BB5900AD138A /* Build configuration list for PBXNativeTarget "ipadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABF5B3D1F10BB5900AD138A /* Debug */,
+				7ABF5B3E1F10BB5900AD138A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ABF5B3F1F10BB5900AD138A /* Build configuration list for PBXNativeTarget "ipadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABF5B401F10BB5900AD138A /* Debug */,
+				7ABF5B411F10BB5900AD138A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ABF5B091F10BB5900AD138A /* Project object */;
+}
