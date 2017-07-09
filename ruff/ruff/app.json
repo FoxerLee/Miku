@@ -1,0 +1,47 @@
+{
+    "board": "ruff-mbd-v1",
+    "devices": [
+        {
+            "id": "KY-016",
+            "model": "KY-016",
+            "driver": "ky-016",
+            "inputs": {
+                "gnd": {
+                    "type": "ground"
+                },
+                "pwm-r": {
+                    "type": "pwm",
+                    "args": {
+                        "frequency": 800
+                    }
+                },
+                "pwm-g": {
+                    "type": "pwm",
+                    "args": {
+                        "frequency": 800
+                    }
+                },
+                "pwm-b": {
+                    "type": "pwm",
+                    "args": {
+                        "frequency": 800
+                    }
+                }
+            }
+        },
+        {
+            "id": "FC-49",
+            "model": "FC-49",
+            "driver": "buzzer-gpio",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "out",
+                        "level": "low"
+                    }
+                }
+            }
+        }
+    ]
+}

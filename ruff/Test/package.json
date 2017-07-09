@@ -1,0 +1,15 @@
+{
+    "name": "hellolc",
+    "version": "0.1.0",
+    "description": "first leancloud proj",
+    "author": "jwfing",
+    "ruff": {
+        "dependencies": {
+            "ruff-mbd-v1": "*",
+            "avoscloud-sdk": "npm:^0.6.9",
+            "dht11": "^0.3.6",
+            "gy-30": "^3.0.6"
+        },
+        "devDependencies": {}
+    }
+}
